@@ -81,8 +81,8 @@ The application follows a **3-Tier Architecture** with a clear separation of con
 ## Back-End Setup:
 ```bash
 # Clone the repository
-git clone https://github.com/Ciprian-Popescu-03/SoftwareDesign2.git
-cd SoftwareDesign2
+git clone https://github.com/Ciprian-Popescu-03/OrderManagementPlatform.git
+cd OrderManagementPlatform/sd-demo-project/demo_backend
 
 # Configure your PostgreSQL connection in src/main/resources/application.properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/your_db
@@ -95,7 +95,7 @@ mvn spring-boot:run
 
 ## Front-End Setup:
 ```bash
-cd frontend
+cd OrderManagementPlatform/sd-demo-project/demo-app
 
 # Install dependencies
 npm install
@@ -126,7 +126,7 @@ The app will be available at `http://localhost:4200`.
 # Testing 🧪
 
 ```bash
-# Run all tests
+# Run all tests (from sd-demo-project/demo_backend)
 mvn test
 ```
 

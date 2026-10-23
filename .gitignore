@@ -1,0 +1,13 @@
+# Dependencies & build output
+node_modules/
+target/
+dist/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
